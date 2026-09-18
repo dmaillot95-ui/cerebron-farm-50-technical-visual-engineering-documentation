@@ -1,0 +1,16 @@
+{
+  "farm_id": 50,
+  "name": "ARCHITECTON VISUAL Ω",
+  "domain": "technical-visual-engineering-documentation",
+  "status": "SCAFFOLDED",
+  "upstream": [
+    49
+  ],
+  "evidence_rules": [
+    "IMAGE != CAD MODEL",
+    "RENDER != ENGINEERING VALIDATION",
+    "GENERATED IMAGE != TEST",
+    "TBD remains TBD",
+    "CLAIM <= EVIDENCE"
+  ]
+}
