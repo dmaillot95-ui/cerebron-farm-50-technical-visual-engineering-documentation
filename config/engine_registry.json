@@ -1,0 +1,23 @@
+{
+  "version": "1.0",
+  "engines": [
+    {
+      "engine_id": "PY-VISUAL-MVP",
+      "name": "Deterministic technical-view manifest generator",
+      "category": "documentation",
+      "version": "stdlib",
+      "capabilities": [
+        "view manifest",
+        "source traceability",
+        "TBD preservation"
+      ],
+      "limitations": [
+        "no CAD kernel",
+        "no engineering validation",
+        "no rendering engine"
+      ],
+      "validation_status": "MVP",
+      "benchmark_status": "PENDING"
+    }
+  ]
+}
