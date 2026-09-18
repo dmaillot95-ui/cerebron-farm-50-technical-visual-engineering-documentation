@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "job_id",
+    "farm_id",
+    "input_artifacts",
+    "views",
+    "validation",
+    "evidence_level",
+    "status"
+  ],
+  "properties": {
+    "job_id": {
+      "type": "string"
+    },
+    "farm_id": {
+      "const": 50
+    },
+    "input_artifacts": {
+      "type": "array"
+    },
+    "views": {
+      "type": "array"
+    },
+    "validation": {
+      "type": "object"
+    },
+    "evidence_level": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}
